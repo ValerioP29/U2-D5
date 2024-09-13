@@ -34,7 +34,7 @@ body:has(header.sticky) header {
   background-color: white;
 }
 body:has(header.sticky) .navbar button {
-  background-color: green; /* Cambia colore bottone a verde */
+  background-color: green;
   color: white;
 }
 
@@ -210,12 +210,4 @@ article {
 .button-list a {
   padding: 10px;
   line-height: 1.6rem;
-}
-.scrolled header {
-  background-color: white;
-}
-
-.scrolled .navbar button {
-  background-color: green;
-  color: white;
 }
