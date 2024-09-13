@@ -1,0 +1,209 @@
+header {
+  background-color: #ffc017;
+  padding: 20px;
+  border-bottom: 1px solid #191919;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: background-color 0.5s ease-in-out;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.navbar {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.navbar button {
+  background-color: #191919;
+  border-radius: 50px;
+  color: white;
+  padding: 10px;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  cursor: pointer;
+}
+.navbar a {
+  text-decoration: none;
+  color: #191919;
+}
+.hero {
+  background-color: #ffc017;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15%;
+}
+.hero div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  align-items: flex-start;
+}
+h1 {
+  font-size: 6rem;
+}
+.hero p {
+  font-size: 1.5rem;
+}
+#hero-button {
+  background-color: #191919;
+  border-radius: 50px;
+  padding: 10px;
+  color: white;
+  width: 23%;
+  cursor: pointer;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 20px;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+span {
+  padding-block: 20px;
+  font-weight: bold;
+}
+.trend {
+  display: flex;
+  align-items: center;
+  padding-left: 12%;
+}
+
+.card1 p:nth-child(1),
+.card2 p:nth-child(1),
+.card3 p:nth-child(1),
+.card4 p:nth-child(1),
+.card5 p:nth-child(1),
+.card6 p:nth-child(1) {
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card1 p:nth-child(2),
+.card2 p:nth-child(2),
+.card3 p:nth-child(2),
+.card4 p:nth-child(2),
+.card5 p:nth-child(2),
+.card6 p:nth-child(2) {
+  font-size: 1.3rem;
+  text-align: center;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+.card1 p:nth-child(3),
+.card2 p:nth-child(3),
+.card3 p:nth-child(3),
+.card4 p:nth-child(3),
+.card5 p:nth-child(3),
+.card6 p:nth-child(3) {
+  text-align: center;
+  color: #848080;
+}
+.card span {
+  font-size: 3rem;
+  color: #e6e6e6;
+}
+.card img {
+  border-radius: 50px;
+  width: 10%;
+  height: 30%;
+}
+article {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  padding-block: 30px;
+}
+.question-column {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.question img {
+  border-radius: 50px;
+}
+.question {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.question span {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.question h4 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.question p {
+  color: #848080;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: space-between;
+  width: 100%;
+}
+.image img {
+  width: 85%;
+}
+.button {
+  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.button button {
+  padding: 3px;
+  color: #848080;
+  background-color: white;
+  border-color: #e6e6e6;
+  cursor: pointer;
+}
+.bold {
+  font-weight: bold;
+}
+.button-list {
+  cursor: pointer;
+  color: #848080;
+}
+.button-list a {
+  padding: 10px;
+  line-height: 1.6rem;
+}
+.scrolled header {
+  background-color: white;
+}
+
+.scrolled .navbar button {
+  background-color: green;
+  color: white;
+}
