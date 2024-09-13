@@ -5,6 +5,10 @@ header {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   transition: background-color 0.5s ease-in-out;
 }
 
@@ -26,6 +30,14 @@ nav {
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   cursor: pointer;
 }
+body:has(header.sticky) header {
+  background-color: white;
+}
+body:has(header.sticky) .navbar button {
+  background-color: green; /* Cambia colore bottone a verde */
+  color: white;
+}
+
 .navbar a {
   text-decoration: none;
   color: #191919;
