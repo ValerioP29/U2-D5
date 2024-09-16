@@ -1,10 +1,16 @@
+body {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-weight: bold;
+}
 #navbar {
   background-color: #ffc017;
   padding: 20px;
   border-bottom: 1px solid #191919;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+
   position: sticky;
   top: 0;
   transition: background-color 0.3s ease;
@@ -90,10 +96,7 @@ h1 {
   flex-direction: column;
   gap: 20px;
 }
-span {
-  padding-block: 20px;
-  font-weight: bold;
-}
+
 .trend {
   display: flex;
   align-items: center;
@@ -121,7 +124,6 @@ span {
   font-size: 1.3rem;
   text-align: center;
 
-  font-family: "Roboto", sans-serif;
   font-weight: 800;
 }
 .card1 p:nth-child(3),
@@ -133,13 +135,18 @@ span {
   text-align: center;
   color: #848080;
 }
+.card4 p:nth-child(3) img,
+.card5 p:nth-child(3) img,
+.card6 p:nth-child(3) img {
+  width: 20%;
+}
 .card span {
   font-size: 3rem;
   color: #e6e6e6;
 }
 .card img {
   border-radius: 50px;
-  width: 10%;
+
   height: 30%;
 }
 article {
@@ -153,6 +160,7 @@ article {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  width: 40%;
 }
 .question img {
   border-radius: 50px;
@@ -173,23 +181,37 @@ article {
 }
 .question p {
   color: #848080;
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  font-size: 0.8rem;
+}
+.question p span {
+  background-color: #e6e6e6;
+  border-radius: 50px;
+  font-weight: normal;
+  padding: 5px;
 }
 
 .image {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  justify-content: space-between;
-  width: 100%;
+
+  justify-content: space-around;
+  width: 20%;
 }
-.image img {
-  width: 85%;
+.bookmark {
+  width: 5%;
+  display: flex;
+  align-self: end;
 }
+
 .button {
   gap: 2rem;
   display: flex;
   flex-wrap: wrap;
   padding-top: 30px;
+  margin-bottom: 20px;
 }
 .button button {
   padding: 3px;
@@ -208,4 +230,7 @@ article {
 .button-list a {
   padding: 10px;
   line-height: 1.6rem;
+}
+.footer {
+  width: 40%;
 }
