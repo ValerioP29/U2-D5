@@ -1,15 +1,17 @@
-header {
+#navbar {
   background-color: #ffc017;
   padding: 20px;
   border-bottom: 1px solid #191919;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-
   position: sticky;
   top: 0;
-  z-index: 1000;
-  transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.3s ease;
+  z-index: 999;
+}
+#navbar.scrolled {
+  background-color: white;
 }
 
 nav {
@@ -22,20 +24,15 @@ nav {
   gap: 30px;
   align-items: center;
 }
-.navbar button {
+#navbarButton {
   background-color: #191919;
   border-radius: 50px;
   color: white;
   padding: 10px;
-  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
-  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-body:has(header.sticky) header {
-  background-color: white;
-}
-body:has(header.sticky) .navbar button {
+#navbarButton.scrolled {
   background-color: green;
-  color: white;
 }
 
 .navbar a {
@@ -72,6 +69,7 @@ h1 {
   width: 23%;
   cursor: pointer;
 }
+
 .card {
   display: flex;
   flex-wrap: wrap;
